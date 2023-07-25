@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Remote Storage Test</title>
   </head>
-  <body>
-    <form onsubmit=""></form>
+  <body onload="init()">
+    <form onsubmit="register()">
+      <input type="text" id="email" />
+      <input type="password" id="password" />
+      <button id="btnRegister">SUBMIT</button>
+    </form>
 
     <script src="storage.js"></script>
     <script src="script.js"></script>
