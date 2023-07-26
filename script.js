@@ -1,3 +1,5 @@
+let users = [];
+
 function init() {}
 
 function register() {
